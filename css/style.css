@@ -98,6 +98,7 @@ article {
 	padding: 15px 0;
 	border-bottom: 1px solid #2f3134;
 }
+.title { margin-bottom: 5px; }
 .title h1 a {
 	font-size: 22px;
 	line-height: 24px;
@@ -109,6 +110,26 @@ article {
 }
 .title h1 a:hover {
 	color: green;
+}
+.info { margin-bottom: 15px; }
+article span {
+	font-size: 14px;
+	color: #222222;
+	font-style: italic;
+}
+.thumbnail { 
+	float: left;
+	margin: 0 15px 10px 0;
+}
+.thumbnail img {
+	max-width: 200px;
+	height: auto;	
+}
+article p {
+	font-size: 16px;
+	/* font-family: "Tahoma", Arial, sans-serif; */
+	line-height: 20px;
+	margin-bottom: 15px;
 }
 
 
