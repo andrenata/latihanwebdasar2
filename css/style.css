@@ -7,3 +7,167 @@ body {
 	margin: 0 auto;	
 	background-color: #fff;
 }
+
+/*HEADER*/
+.header {
+	padding: 50px;
+}
+
+.header .logo {
+	text-align: center;
+}
+
+.header .logo a {
+	text-decoration: none;
+}
+
+.header .logo a h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #2f3134;
+	font-family: "Tahoma", Arial, sans-serif;
+}
+
+/*MENU*/
+.menu { background-color: #2f3134; }
+.menu ul li { float: left; }
+.clear { clear: both; }
+.menu ul {
+	/*CSS3*/
+	justify-content: center;
+	display: flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+}
+.menu ul li a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	font-family: "Tahoma", Arial, sans-serif;
+	letter-spacing: 0.02em;
+
+	transition: background-color 0.2s ease-in-out;	
+}
+.menu ul li a:hover {
+	background-color: red;
+}
+
+/*FOOTER*/
+.footer {
+	background-color: #2f3134;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+}
+
+.footer ul.social-media {
+	/*CSS3 FOR CENTER*/
+	justify-content: center;
+	display: flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+
+	margin-bottom: 10px;
+}
+
+.footer ul.social-media li {
+	float: left;
+	padding-right: 15px;
+} 
+.footer ul.social-media li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.footer p a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
