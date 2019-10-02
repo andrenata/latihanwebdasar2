@@ -96,13 +96,13 @@ article {
 	width: 70%;
 	margin: 0 auto;
 	padding: 15px 0;
-	border-bottom: 1px solid #2f3134;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
 }
 .title { margin-bottom: 5px; }
 .title h1 a {
 	font-size: 22px;
 	line-height: 24px;
-	margin-bottom: 10px;
 	text-decoration: none;
 	color: #2f3134;
 	font-weight: bold;
@@ -114,7 +114,7 @@ article {
 .info { margin-bottom: 15px; }
 article span {
 	font-size: 14px;
-	color: #222222;
+	color: #2f3134;
 	font-style: italic;
 }
 .thumbnail { 
@@ -127,9 +127,13 @@ article span {
 }
 article p {
 	font-size: 16px;
-	/* font-family: "Tahoma", Arial, sans-serif; */
 	line-height: 20px;
 	margin-bottom: 15px;
+}
+.button-readmore a {
+	text-decoration: none;
+	color: #bc1a1a;
+	font-style: italic;
 }
 
 
