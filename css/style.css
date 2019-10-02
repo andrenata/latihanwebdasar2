@@ -123,7 +123,14 @@ article span {
 }
 .thumbnail img {
 	max-width: 200px;
-	height: auto;	
+	height: auto;
+	opacity: 1;
+	  filter: alpha(opacity=100);	
+	  transition: all 0.2s ease-in-out;
+}
+.thumbnail img:hover {
+	opacity: 0.6;
+  	filter: alpha(opacity=60);
 }
 article p {
 	font-size: 16px;
