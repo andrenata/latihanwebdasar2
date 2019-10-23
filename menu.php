@@ -7,8 +7,8 @@
         <li><a href="">Contat Us</a></li>
         <li><a href="login.php">Login</a></li>
         <li><a href="list_post.php">Posts</a></li>
-        <li><a href="list_post.php">Pages</a></li>
-        <li><a href="list_post.php">Menus</a></li>
+        <li><a href="list_page.php">Pages</a></li>
+        <li><a href="list_menu.php">Menus</a></li>
     </ul>
     <div class="clear"></div>
 </div> <!-- endMenu -->

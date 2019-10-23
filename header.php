@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Latihan Web Dasar - STMIK Denpasar</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JS -->
+    <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
 
 </head>
 <body>

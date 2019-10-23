@@ -143,6 +143,29 @@ article p {
 	font-style: italic;
 }
 
+.content {
+	padding: 15px;
+}
+
+h4 {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.input-group {
+	margin-bottom: 10px;
+}
+label {
+	font-size: 14px;
+}
+input[type=text], textarea {
+	border: 1px solid #2f3134;
+	border-radius: 3px;
+	width: 50%;
+}
+table.list-data tr td {
+	border: 1px solid #2f3134;
+	padding: 5px 7px;
+}
 
 
 

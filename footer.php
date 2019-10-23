@@ -14,7 +14,11 @@
 			<p>Copyright &copy; 2019. <a href="">PT.Wisata Bali</a>.</p>
 		</div> <!-- endFooter -->
 
-	</div> <!-- endContainer -->
+    </div> <!-- endContainer -->
+    
+    <script>
+            CKEDITOR.replace( 'webeditor' );
+    </script>
 
 </body>
 </html>
