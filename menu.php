@@ -5,7 +5,10 @@
         <li><a href="">Place of Interest</a></li>
         <li><a href="">About Us</a></li>
         <li><a href="">Contat Us</a></li>
-        <li><a href="">Login</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="list_post.php">Posts</a></li>
+        <li><a href="list_post.php">Pages</a></li>
+        <li><a href="list_post.php">Menus</a></li>
     </ul>
     <div class="clear"></div>
 </div> <!-- endMenu -->

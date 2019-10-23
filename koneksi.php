@@ -6,9 +6,6 @@
     if(mysqli_connect_errno()){
         // jika ya ada error
         echo 'Koneksi Gagal : '.mysqli_connect_error();
-    }else{
-        // jika tidak ada error
-        echo 'Konesi sukses!!!';
     }
 
 ?>
