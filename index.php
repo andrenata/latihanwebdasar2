@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Latihan Web Dasar - STMIK Denpasar</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-
-	<div class="container">
-		<!-- HEADER HERE -->
-		<div class="header">
-			<div class="logo">
-				<a href=""><h1>WISATA BALI</h1></a>
-			</div> <!-- end logo -->
-		</div> <!-- endHeader -->
+<?php include('header.php'); ?>
 		
-		<!-- MENU HERE -->
-		<div class="menu">
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Place of Interest</a></li>
-				<li><a href="">About Us</a></li>
-				<li><a href="">Contat Us</a></li>
-				<li><a href="">Login</a></li>
-			</ul>
-			<div class="clear"></div>
-		</div> <!-- endMenu -->
+<?php include('menu.php'); ?>
 
 
 		<div class="content">
@@ -90,63 +63,4 @@
 			
 		</div> <!-- endContent -->
 
-		<!-- FOOTER HERE -->
-		<div class="footer">
-			<ul class="social-media">
-				<li>
-					<a href="https://facebook.com" target="_blank">Facebook</a>
-				</li>
-				<li>
-					<a href="https://instagram.com" target="_blank">Instagram</a>
-				</li>
-			</ul>
-
-			<div class="clear"></div>
-
-			<p>Copyright &copy; 2019. <a href="">PT.Wisata Bali</a>.</p>
-		</div> <!-- endFooter -->
-
-	</div> <!-- endContainer -->
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php include('footer.php'); ?>
