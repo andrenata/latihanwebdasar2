@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- JS -->
-    <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+	<script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+	
 
 </head>
 <body>
