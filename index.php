@@ -4,62 +4,29 @@
 
 
 		<div class="content">
+			<?php 
+				include("koneksi.php");
+				$data = mysqli_query($koneksi, "SELECT * FROM post");
+				while($d = mysqli_fetch_array($data)){
+			?>
 			<article>
 				<div class="title">
-					<h1><a href="single.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit</a></h1>
+					<h1><a href="post=?<?php echo $d['id']; ?>"><?php echo $d['post_title']; ?></a></h1>
 				</div> <!-- title -->
 				<div class="info"><span>17 August 2019</span></div>
 				<div class="thumbnail">
-					<a href="single.html"><img src="images/tibumana.jpg" alt="Tibumana Wisata Bali"></a>
+					<a href="post=?<?php echo $d['id']; ?>"><img src="images/<?php echo $d['post_image']; ?>" alt="Tibumana Wisata Bali"></a>
 				</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-					Odit eos nostrum officiis architecto quasi sint quam iure quo ullam recusandae 
-					dolores nobis saepe aut eius, commodi maiores. Cum, eveniet veritatis.</p>
-				<div class="button-readmore"><a href="single.html">read more...</a></div>
+				<?php 
+					$num_char = 200;
+					$text = $d['post_description'];
+					echo substr($text, 0, $num_char);
+				?>
+				<div class="button-readmore"><a href="post=?<?php echo $d['id']; ?>">read more...</a></div>
 				<div class="clear"></div>
 			</article>
-			<article>
-					<div class="title">
-						<h1><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit</a></h1>
-					</div> <!-- title -->
-					<div class="info"><span>17 August 2019</span></div>
-					<div class="thumbnail">
-						<a href="#"><img src="images/monkey forest.jpg" alt="Tibumana Wisata Bali"></a>
-					</div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-						Odit eos nostrum officiis architecto quasi sint quam iure quo ullam recusandae 
-						dolores nobis saepe aut eius, commodi maiores. Cum, eveniet veritatis.</p>
-					<div class="button-readmore"><a href="#">read more...</a></div>
-					<div class="clear"></div>
-				</article>
-				<article>
-						<div class="title">
-							<h1><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit</a></h1>
-						</div> <!-- title -->
-						<div class="info"><span>17 August 2019</span></div>
-						<div class="thumbnail">
-							<a href="#"><img src="images/tibumana.jpg" alt="Tibumana Wisata Bali"></a>
-						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-							Odit eos nostrum officiis architecto quasi sint quam iure quo ullam recusandae 
-							dolores nobis saepe aut eius, commodi maiores. Cum, eveniet veritatis.</p>
-						<div class="button-readmore"><a href="#">read more...</a></div>
-						<div class="clear"></div>
-					</article>
-					<article>
-							<div class="title">
-								<h1><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit</a></h1>
-							</div> <!-- title -->
-							<div class="info"><span>17 August 2019</span></div>
-							<div class="thumbnail">
-								<a href="#"><img src="images/tibumana.jpg" alt="Tibumana Wisata Bali"></a>
-							</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-								Odit eos nostrum officiis architecto quasi sint quam iure quo ullam recusandae 
-								dolores nobis saepe aut eius, commodi maiores. Cum, eveniet veritatis.</p>
-							<div class="button-readmore"><a href="#">read more...</a></div>
-							<div class="clear"></div>
-						</article>
+			<?php } ?>
+			
 			
 		</div> <!-- endContent -->
 
