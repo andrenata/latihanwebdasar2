@@ -3,7 +3,7 @@
 
     <div class="content">
         <h4>ADD POST</h4>
-        <form action="post" action="">
+        <form method="post" action="functions/tambah-data-post.php" enctype="multipart/form-data">
             <div class="input-group">
                 <label>Title</label> <br>
                 <input type="text" name="title">
