@@ -64,7 +64,7 @@
                 </td>
                 <td>
                     <a href="edit_post.php?id=<?php echo $d['id']; ?>">Edit</a>
-                    <a href="">Del</a>
+                    <a href="functions/del-data-post.php?id=<?php echo $d['id']; ?>">Del</a>
                 </td>
             </tr>
             <?php

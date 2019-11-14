@@ -12,8 +12,8 @@
             $data = mysqli_query($koneksi, "SELECT * FROM post WHERE id=$id");
             // LAKUKAN PERULANGAN DATA DENGAN WHILE
             while($d = mysqli_fetch_array($data)){
-        ?>
-        <form method="post" action="functions/tambah-data-post.php" enctype="multipart/form-data">
+        ?> 
+        <form method="post" action="functions/update-data-post.php" enctype="multipart/form-data">
             <div class="input-group">
                 <label>Title</label> <br>
                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
