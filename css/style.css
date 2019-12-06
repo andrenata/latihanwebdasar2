@@ -168,6 +168,52 @@ table.list-data tr td {
 }
 
 
+/* LOGIN */
+.login-box {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: #ddd;
+	padding: 30px;
+	margin-top: 100px;
+}
+.login-box h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.login-box p.error {
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.login-box label {
+	font-size: 16px;
+	margin: 15px 0 5px 0;
+}
+.login-box input[type=email],
+.login-box input[type=password] {
+	margin-bottom: 15px;
+	width: 80%;
+	padding: 10px 20px;
+	border: none;
+	background-color: #ddd;
+}
+.login-box input[type=submit] {
+	padding: 10px 15px;
+	border: none;
+	background-color: royalblue;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.login-box input[type=submit]:hover {
+	cursor: pointer;
+	background-color: #2f3134;
+}
+
 
 
 
