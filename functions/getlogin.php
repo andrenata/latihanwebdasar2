@@ -8,17 +8,20 @@
     $email = $_POST['email'];
     $password = md5($_POST['password']);
     // cek data ke database
-    $cek = mysqli_query($koneksi, "select * from user 
-                        where email='$email' 
-                        and password='$password'");
+    $cek = mysqli_query($koneksi, "SELECT * FROM user 
+                        WHERE email='$email' 
+                        AND password='$password'") or die(mysql_error());
+                        
     // cek apakah ada data
-    if($cek){
+    $cek = mysqli_num_rows($cek);
+
+    if($cek > 0){
         // $_SESSION['email'] = $email;
         // $_SESSION['status'] = 'login';
         // header('location:../index.php');
-        echo "sukses";
+        echo "SUKSES";
     }else{
-        echo "gagal";
+        echo "GAGAL";
         // header('location:../login.php?pesan=gagal');
     }
 
