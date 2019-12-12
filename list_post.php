@@ -1,3 +1,4 @@
+<?php include('functions/cek-session.php'); ?>
 <?php include('header.php'); ?>
 <?php include('menu.php'); ?>
 
