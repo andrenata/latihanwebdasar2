@@ -16,13 +16,11 @@
     $cek = mysqli_num_rows($cek);
 
     if($cek > 0){
-        // $_SESSION['email'] = $email;
-        // $_SESSION['status'] = 'login';
-        // header('location:../index.php');
-        echo "SUKSES";
+        $_SESSION['email'] = $email;
+        $_SESSION['status'] = 'login';
+        header('location:../index.php');
     }else{
-        echo "GAGAL";
-        // header('location:../login.php?pesan=gagal');
+        header('location:../login.php?pesan=gagal');
     }
 
 ?>
